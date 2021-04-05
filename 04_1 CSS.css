@@ -1,0 +1,76 @@
+body {
+    background-color: #fbceb1;
+}
+#font_back{
+    background-color:rgb(255, 255, 255);
+}
+h3 {
+    color : black;
+    text-align: center;
+    background-color: white;
+
+}
+
+h4 {
+    text-align: right;
+    background-color: white
+}
+
+#makefontstyle1{
+    font-size: 14px;
+    color: black;
+    text-align:left;
+    font-weight: bold;
+    font-family: Helvetica, Arial, sans-serif;
+    background-color: white
+    
+}
+
+#makefontstyle2{
+    /*
+    font Properties 4가지 추가
+    makefontstyle1과 property 중복 가능/그러나 보이는건 서로 달라야
+    */
+    color : black;
+    text-align: left;
+    font-size: 13px;
+    font-weight: bold;
+    font-style: italic;
+    background-color: white
+}
+
+.maketextstyle1{
+    color : pink;
+    font-size: 13px;
+    font-weight: bold;
+    font-style: italic;
+    text-decoration: underline;
+    text-decoration-color:red;
+    text-align:center;
+    background-color: white
+}
+
+.maketextstyle2{
+    color : blue;
+    font-size: 12px;
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: overline;
+    text-decoration-color:blue;
+    text-align:left;
+    background-color: white
+}
+
+
+
+/*////////////////////////////////////////////*/
+/*변경금지*/
+.darkbackground{
+    background-color: black; 
+    color: white;
+    text-align: center;
+    font-size: larger;
+    margin: 50px,10px,50px,10px;
+}
+/*////////////////////////////////////////////*/
+/*변경금지*/
