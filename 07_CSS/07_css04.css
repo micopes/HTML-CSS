@@ -1,0 +1,36 @@
+#move1:hover{
+    /*
+    그림위에 마우스 올리면
+    x축 10px, y축 50px, z축 10px 옮기기
+    */
+    transform:translate3d(10px, 50px, 10px);
+}
+
+#move2:hover{
+    /*
+    그림위에 마우스 올리면
+    그림 반으로 축소
+    */
+    transform:scale(0.5, 0.5);
+}
+#move3:hover{
+    /*
+    그림위에 마우스 올리면
+    y축 120도 회전
+    */
+    transform:rotateY(120deg);
+}
+#move4:hover{
+    /*
+    그림위에 마우스 올리면
+    x축 50도 회전 + 원근감 주기
+    */
+    transform:rotateX(50deg) perspective(1000px);
+}
+#move5:hover{
+    /*
+    그림위에 마우스 올리면
+    x축 40도, y축 20도 비틀기
+    */
+    transform:skew(40deg, 20deg);
+}

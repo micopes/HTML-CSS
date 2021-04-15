@@ -1,0 +1,47 @@
+#layout4all {
+    width: 1200px;
+    margin: 20px auto;
+}
+
+/*
+task1) 샘플사진처럼 layout을 만드세요. 
+- 크기/색상 자유
+
+- 단,   layout4header 의 가로 = 
+        layout4footer 의 가로 = 
+        layout4menubar 의 가로 + layout4content 의 가로 + layout4banner 의 가로
+
+- 단,   layout4menubar 의 세로 = layout4content 의 세로 + layout4banner 의 세로
+
+- 단, 효과 적용을 위해 html body 안 수정 금지.
+*/
+#layout4header {
+    background-color: rgb(216, 209, 199)
+}
+
+#layout4menubar {
+    float:left;
+    width: 18%;
+    margin:10;
+    background-color:gray;
+}
+
+#layout4content {
+    float:left;
+    width: 60%;
+    background-color:yellow
+}
+
+#layout4banner {
+    float:right;
+    width: 18%;
+    margin:10;
+    margin-top: auto;
+    background-color:orangered;
+}
+
+#layout4footer {
+    clear:both;
+    background-color:gray;
+    float:inline-end;
+}
